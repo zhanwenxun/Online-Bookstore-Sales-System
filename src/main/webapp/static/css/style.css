@@ -1,0 +1,222 @@
+body {
+    padding-top: 50px;
+	font-family: "Microsoft YaHei";
+	padding-bottom:50px;
+}
+
+div:hover {
+	text-decoration: none;
+}
+.table th, .table td {
+	text-align: center;
+	vertical-align: middle!important;
+}
+
+.navbar-fixed-top {
+  border: 0;
+}
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+.nav-sidebar {
+  margin-right: -21px; 
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 30px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+
+
+.sidebar-1 {
+	height: 100%;
+}
+
+.big {
+	width: 175px;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+}
+.big img {
+	display:block;
+	position: relative;
+}
+.bigimg img {
+	width: 100%;
+	height: 100%;
+	width: 175px;
+	height: 250px;
+	opacity:1;
+	-moz-transform:scale(1, 1);
+	-webkit-transform:scale(1, 1);
+	-o-transform:scale(1, 1);
+	-ms-transform:scale(1, 1);
+	transform:scale(1, 1);
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	-ms-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+
+.bigimg:hover img {
+	z-index: 0;
+	opacity:1;
+	width: 100%;
+	height: 100%;
+	-moz-transform:scale(1.2, 1.2);
+	-webkit-transform:scale(1.2, 1.2);
+	-o-transform:scale(1.2, 1.2);
+	-ms-transform:scale(1.2, 1.2);
+	transform:scale(1.2, 1.2);
+}
+.boxes {
+	width:175px;
+	height:345px;
+	margin-right: 10px;
+	padding-right: 10px;
+	background-color:#f5f5f5;
+	border:none;
+	overflow:hidden;
+	z-index:10;
+}
+.foot-style {
+	text-align: center;
+	font-size: 14px;
+}
+.margin-t {
+	margin-top: 30px;
+}
+.pd-10 {
+	padding-top: 30px;
+}
+
+.center {
+	text-align: center;
+}
+.margin-l {
+	margin-left: 8%; 
+}
+.big-button {
+	margin-left: 10px;
+}
+.detail-img {
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	width: 350px;
+	height: 500px;
+}
+.detail-x {
+	font-size: 18px;
+}
+.pd-5 {
+	padding-top: 30px;
+}
+.pointer:hover {
+	cursor: pointer;
+}
+.confirm-margin {
+	margin-top: 10px;
+}
+.bigHead {
+	padding-top: 10px;
+}
+.product-name {
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Rufina', serif;
+}
+
+.product-price {
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Rufina', serif;
+	margin-bottom: 0;
+ }
+
+.delete-button {
+	margin-top: 0;
+	margin-left: 36px;
+}
+
+.search-padding{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.list-group-item-diy{
+	color: #555555;
+	text-align: center;
+}
+.list-group-item-diy a,.list-group-item-diy a:hover,.list-group-item-diy a:visited{
+	color: #555555;
+}
+
+.division {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.evaluationTable td{
+	text-align: left;
+}
+
+.evaluationButton {
+	padding-top: 10px;
+}
+
+.footer{ width:1100px; margin:0 auto; border-top:1px solid #53a5e4;  text-align:center}
+
+#nav-footer{ width:1100px;  margin-top:10px; text-align:center}
+
+.footdiv ul{ list-style:none; margin-top:5px; margin-left:100px;}
+.footdiv ul li{ float:left; margin-left:8px;}
+.footdiv ul li a{ text-decoration:none; color:#535353;  font-size:12px; }
+
+.table-striped>tr th td{
+	font-size: 30px;
+}
